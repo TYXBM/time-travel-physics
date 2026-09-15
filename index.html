@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Voyage dans le temps — Accueil</title>
+</head>
+<body>
+  <header class="time-travel-header time-travel-flex">
+    <nav aria-label="Navigation principale">
+      <ul id="primary-navigation" class="primary-navigation underline-indicators time-travel-flex">
+        <li class="active">
+          <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html" aria-current="page">
+            <span style="margin:0;">Accueil</span>
+          </a>
+        </li>
+        <li>
+          <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="first_theory.html">
+            <span>Théorie</span>I
+          </a>
+        </li>
+        <li>
+          <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="second_theory.html">
+            <span>Théorie</span>II
+          </a>
+        </li>
+        <li>
+          <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="third_theory.html">
+            <span>Théorie</span>III
+          </a>
+        </li>
+        <li>
+          <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="fourth_theory.html">
+            <span>Théorie</span>IV
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1 class="sr-only">Le voyage dans le temps : la science et la physique</h1>
+
+  <main class="content-section">
+    <img src="Okabe.png" alt="Rintarou Okabe, scientifique venu de l'année 2040" class="Okabe animation">
+    <div class="center-content">
+      <img src="bubble.png" alt="" class="bubble animation">
+      <p id="text" aria-live="polite"></p>
+    </div>
+  </main>
+
+  <div id="landscape-message">
+    <p>Veuillez mettre votre téléphone en mode paysage pour une meilleure expérience.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
