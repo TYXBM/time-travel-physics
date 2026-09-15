@@ -5,7 +5,7 @@ four theory modules, built with plain HTML, CSS and JavaScript. The presentation
 is styled as a message sent from the year 2040, framed by a character from the
 anime *Steins;Gate*.
 
-**Live site:** https://consciousotter.github.io/time-travel-physics/
+**Live site:** https://TYXBM.github.io/time-travel-physics/
 
 ## Content
 
